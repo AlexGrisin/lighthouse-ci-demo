@@ -9,11 +9,11 @@ The purpose of this project is to demo the [Lighthouse CI](https://github.com/Go
 
 ## What we will cover on our workshop session?
 
-- Collect [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-startedmd#collect-lighthouse-results)
-- Assert [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#add-assertions)
-- LHCI Server [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server)
-  - Deployment [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md#deployment)
-  - Configuration [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#project-creation)
+- [Collect](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-startedmd#collect-lighthouse-results)
+- [Assert](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#add-assertions)
+- [LHCI Server](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server)
+  - [Deployment](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md#deployment)
+  - [Configuration](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#project-creation)
 - Setting up CI integration (Jenkins)
 
 ## Web application under test
