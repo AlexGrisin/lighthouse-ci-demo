@@ -17,4 +17,4 @@ jobs:
         run: |
           yarn web:lighthouse
         env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          LHCI_GITHUB_APP_TOKEN: FaaynB3x:28516410:CG9VHh2Y8yLNfyYW
