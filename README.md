@@ -2,6 +2,20 @@
 
 The purpose of this project is to demo the [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)
 
+## Why we want to do it?
+
+- Get a Lighthouse report alongside every PR
+- Track performance metrics and Lighthouse scores over time
+
+## What we will cover on our workshop session?
+
+- Collect [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-startedmd#collect-lighthouse-results)
+- Assert [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#add-assertions)
+- LHCI Server [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#the-lighthouse-ci-server)
+  - Deployment [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/server.md#deployment)
+  - Configuration [link](https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md#project-creation)
+- Setting up CI integration (Jenkins)
+
 ## Web application under test
 
 We use React [Todo Application](https://github.com/drehimself/todo-react) purely for demonstration and educational purposes.
