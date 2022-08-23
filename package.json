@@ -1,6 +1,7 @@
 {
   "name": "lighthouse-ci-demo",
   "version": "1.0.0",
+  "description": "Lighthouse CI Demo project",
   "main": "index.js",
   "license": "MIT",
   "private": true,
