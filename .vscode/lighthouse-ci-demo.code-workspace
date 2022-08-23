@@ -1,0 +1,37 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "../"
+    },
+    {
+      "name": "lhci-server",
+      "path": "../lhci-server"
+    },
+    {
+      "name": "react-app",
+      "path": "../react-app"
+    }
+  ],
+  "settings": {
+    // Exclude project folders inside the root directory in workspace
+    "files.exclude": {
+      "lhci-server": true,
+      "react-app": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+}

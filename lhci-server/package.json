@@ -1,0 +1,19 @@
+{
+  "name": "lhci-server",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "wizard": "npx lhci wizard",
+    "start": "npx lhci server --storage.storageMethod=sql --storage.sqlDialect=sqlite --storage.sqlDatabasePath=./db.sql",
+    "docker": "docker volume create lhci-data && docker container run --publish 9001:9001 --mount='source=lhci-data,target=/data' --detach patrickhulce/lhci-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lhci/cli": "^0.9.0",
+    "@lhci/server": "^0.9.0",
+    "sqlite3": "^5.0.11"
+  }
+}

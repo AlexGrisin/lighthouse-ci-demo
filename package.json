@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse-ci-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "web:start": "yarn workspace react-app start",
+    "web:lighthouse": "yarn workspace react-app lighthouse",
+    "lhci-server:start": "yarn workspace lhci-server start",
+    "lhci-server:wizard": "yarn workspace lhci-server wizard"
+  },
+  "workspaces": [
+    "lhci-server",
+    "react-app"
+  ]
+}
