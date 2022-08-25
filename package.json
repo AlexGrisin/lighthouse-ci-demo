@@ -8,6 +8,7 @@
   "scripts": {
     "web:start": "yarn workspace react-app start",
     "web:lighthouse": "yarn workspace react-app lighthouse",
+    "web:lighthouse:lhci": "yarn workspace react-app lighthouse:lhci",
     "lhci-server:start": "yarn workspace lhci-server start",
     "lhci-server:wizard": "yarn workspace lhci-server wizard"
   },
