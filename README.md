@@ -46,6 +46,8 @@ Extensive documentation can be found [here](https://github.com/GoogleChrome/ligh
 
 ### Configure LHCI server
 
+Take a note of the build token provided
+
 ```shell
 yarn lhci:wizard
 ```
@@ -54,4 +56,13 @@ yarn lhci:wizard
 
 ```shell
 yarn lhci:start
+```
+
+### Upload lighthouse results to LHCI Server
+
+Use build token from `lhci:wizard` run
+
+```shell
+yarn web:lighthouse
+yarn web:lighthouse:lhci
 ```
